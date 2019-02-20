@@ -2,7 +2,7 @@
 # Dockerfile for ShadowsocksR
 #
 
-FROM alpine:3.7
+FROM alpine:3.8
 
 ENV SSR_URL https://github.com/shadowsocksrr/shadowsocksr/archive/akkariiin/master.tar.gz
 ENV SSR_DIR shadowsocksr-akkariiin-master
