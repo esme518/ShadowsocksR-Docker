@@ -23,9 +23,6 @@ ENV PROTOCOL    auth_aes128_md5
 ENV OBFS        tls1.2_ticket_auth
 ENV TIMEOUT     300
 
-EXPOSE $SERVER_PORT/tcp
-EXPOSE $SERVER_PORT/udp
-
 WORKDIR /etc/$SSR_DIR/shadowsocks
 
 CMD python server.py \
